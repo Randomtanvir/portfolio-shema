@@ -119,7 +119,7 @@ const HeroSection = () => {
         <img
           src="/profile.jpg"
           alt="hero"
-          className="max-w-xs rounded-2xl sm:max-w-sm lg:max-w-md transition-all duration-300"
+          className="max-w-xs rounded-2xl sm:max-w-sm lg:max-w-md hover:scale-105 transition-all duration-300"
         />
       </section>
     </div>

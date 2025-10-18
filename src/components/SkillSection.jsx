@@ -23,7 +23,7 @@ export default function SkillSection() {
   }, []);
 
   return (
-    <section className="py-20 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-950">
+    <section className="py-20 bg-gradient-to-b from-gray-900 to-gray-950">
       <div className="max-w-5xl mx-auto px-6 text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-gray-900 dark:text-white">
           💡 My Skills
