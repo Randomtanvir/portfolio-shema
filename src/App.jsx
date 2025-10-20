@@ -1,7 +1,6 @@
 import About from "./components/About";
 import Banner from "./components/Banner";
 import Contact from "./components/Contact";
-import Timeline from "./components/Education";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
@@ -17,7 +16,6 @@ const App = () => {
       <Education />
       <Contact />
       <Footer />
-      {/* <Timeline /> */}
     </div>
   );
 };

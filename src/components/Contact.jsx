@@ -1,9 +1,12 @@
 export default function Contact() {
   return (
-    <div className="bg-gray-700 bg-gradient-to-b from-gray-900 to-gray-950 py-16">
+    <div
+      id="contact"
+      className="bg-gray-700 bg-gradient-to-b from-gray-900 to-gray-950 py-16"
+    >
       <form className="flex flex-col items-center text-sm">
         {/* Section Title */}
-        <p className="text-lg text-orange-500 font-medium pb-2">Contact Me</p>
+        <p className="text-lg text-green-500 font-medium pb-2">Contact Me</p>
         <h1 className="text-4xl font-semibold text-slate-300 pb-4">
           Let's Work Together
         </h1>
@@ -57,7 +60,7 @@ export default function Contact() {
         {/* Submit Button */}
         <button
           type="submit"
-          className="mt-5 bg-orange-600 hover:bg-orange-700 text-white h-12 w-56 px-4 rounded active:scale-95 transition"
+          className="mt-5 bg-green-600 hover:bg-green-700 text-white h-12 w-56 px-4 rounded active:scale-95 transition"
         >
           Send Message
         </button>

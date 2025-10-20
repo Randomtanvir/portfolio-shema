@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <footer className="flex flex-col items-center bg-gradient-to-b from-orange-50 to-white justify-around w-full py-16 text-sm text-gray-800/70">
+      <footer className="flex flex-col items-center bg-gradient-to-b from-green-100 to-[#83ffe2] justify-around w-full py-16 text-sm text-gray-800/70">
         <div className="flex items-center gap-8">
           <a
             href="#"

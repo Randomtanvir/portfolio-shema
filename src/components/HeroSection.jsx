@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import MobileNav from "./MobileNav";
+import { Contact } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -76,14 +77,32 @@ const HeroSection = () => {
           </div> */}
 
           {/* Hero Heading */}
-          <h1 className="text-center md:text-left text-5xl leading-[68px] md:text-6xl md:leading-[84px] font-medium max-w-xl text-slate-50">
-            Empowering Ideas with{" "}
-            <span className="text-orange-400 animate-pulse">
-              Public Administration
+          <h1 className="text-center text-white md:text-left text-5xl leading-[68px] md:text-5xl md:leading-[84px] font-medium max-w-xl">
+            Empowering Ideas with
+            <span
+              className="bg-clip-text text-transparent"
+              style={{
+                backgroundImage:
+                  "linear-gradient(270deg, #34d399 0%, #60a5fa 25%, #a78bfa 50%, #f472b6 75%, #34d399 100%)",
+                backgroundSize: "1000% 1000%",
+                animation: "gradientShift 8s ease infinite",
+                display: "inline-block",
+              }}
+            >
+              Public <br /> Administration
             </span>
           </h1>
 
-          {/* Hero Subheading */}
+          {/* gradient animation keyframes */}
+          <style>
+            {`
+            @keyframes gradientShift {
+              0% { background-position: 0% 50%; }
+              50% { background-position: 100% 50%; }
+              100% { background-position: 0% 50%; }
+            }
+          `}
+          </style>
           <p className="text-center md:text-left text-sm text-slate-200 max-w-lg mt-4">
             I am a graduate student in Public Administration passionate about
             governance, policy analysis, and effective public service. Explore
@@ -93,24 +112,11 @@ const HeroSection = () => {
           {/* Hero Buttons */}
           <div className="flex items-center gap-4 mt-8 text-sm">
             <button className="bg-white hover:bg-slate-200 text-black active:scale-95 rounded-md px-7 h-11">
-              View Portfolio
+              Download CV
             </button>
             <button className="flex items-center gap-2 border border-slate-600 active:scale-95 hover:bg-white/10 transition text-white rounded-md px-6 h-11">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5" />
-                <rect x="2" y="6" width="14" height="12" rx="2" />
-              </svg>
-              Watch Demo
+              <Contact size={16} />
+              Contact
             </button>
           </div>
         </div>
