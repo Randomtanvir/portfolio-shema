@@ -9,7 +9,7 @@ import SkillSection from "./components/SkillSection";
 const App = () => {
   return (
     <div className="">
-      <Banner />
+      <Banner /> {/*for banner in top */}
       <HeroSection />
       <About />
       <SkillSection />
