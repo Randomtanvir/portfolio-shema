@@ -8,15 +8,15 @@ import SkillSection from "./components/SkillSection";
 
 const App = () => {
   return (
-    <div className="">
-      <Banner /> {/*for banner in top */}
+    <>
+      <Banner />
       <HeroSection />
       <About />
       <SkillSection />
       <Education />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 };
 
