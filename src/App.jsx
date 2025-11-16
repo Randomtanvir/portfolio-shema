@@ -10,6 +10,7 @@ const App = () => {
   return (
     <>
       <Banner />
+      {/* this is herro sect */}
       <HeroSection />
       <About />
       <SkillSection />
